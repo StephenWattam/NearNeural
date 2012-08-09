@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -r Docs
+javadoc -d Docs -private -version -author -quiet NearNeural/*.java
